@@ -247,7 +247,7 @@ I use competitive programming to strengthen my **problem-solving, algorithms, an
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/mahidrahman375/mahidrahman375/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake"/>
+<img src="https://raw.githubusercontent.com/mahidrahman375/mahidrahman375/gh-pages/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake"/>
 
 </div>
 
