@@ -1,308 +1,118 @@
 <div align="center">
 
-# 👋 Hi, I'm Yeamin Rahman Mahid
+# Yeamin Rahman Mahid
 
-### CSE Student • Machine Learning Enthusiast • Problem Solver
+**CSE Undergraduate @ East West University · ML/DL Research · Competitive Programmer**
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=8B5CF6&center=true&vCenter=true&width=600&lines=Building+attention-based+deep+learning+systems;Researching+medical+image+classification;600%2B+problems+solved+on+CF+%2B+LeetCode;Turning+ideas+into+working+ML+pipelines" alt="Typing SVG"/>
 
 <p>
-  <a href="https://github.com/mahidrahman375">
-    <img src="https://img.shields.io/badge/GitHub-6366F1?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="https://linkedin.com/in/yeamin-rahman-mahid-957a551a9">
-    <img src="https://img.shields.io/badge/LinkedIn-4F46E5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://codeforces.com/profile/yeaminmahid">
-    <img src="https://img.shields.io/badge/Codeforces-8B5CF6?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces"/>
-  </a>
-  <a href="https://leetcode.com/u/yeaminmahid/">
-    <img src="https://img.shields.io/badge/LeetCode-6366F1?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/>
-  </a>
+  <a href="https://linkedin.com/in/yeamin-rahman-mahid-957a551a9"><img src="https://img.shields.io/badge/LinkedIn-4F46E5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://github.com/mahidrahman375"><img src="https://img.shields.io/badge/GitHub-6366F1?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://codeforces.com/profile/yeaminmahid"><img src="https://img.shields.io/badge/Codeforces-8B5CF6?style=for-the-badge&logo=codeforces&logoColor=white"/></a>
+  <a href="https://leetcode.com/u/yeaminmahid/"><img src="https://img.shields.io/badge/LeetCode-6366F1?style=for-the-badge&logo=leetcode&logoColor=white"/></a>
 </p>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=8B5CF6&center=true&vCenter=true&width=700&lines=Exploring+Machine+Learning+%26+AI;Building+Projects+That+Solve+Problems;Learning+%7C+Experimenting+%7C+Improving;Turning+Ideas+Into+Working+Systems" alt="Typing SVG"/>
 
 </div>
 
 ---
 
-## 🧑‍💻 About Me
+## About Me
 
-I'm a **Computer Science & Engineering student** passionate about learning how intelligent systems work and turning ideas into practical projects.
+I'm a Computer Science & Engineering undergraduate focused on deep learning research, with a particular interest in **medical image analysis, attention mechanisms, and explainable AI**. Alongside coursework, I build full ML pipelines end-to-end — from data preprocessing through model ablation to explainability — and compete in Kaggle competitions and datathons.
 
-My main interests include:
-
-* 🤖 Machine Learning & Deep Learning
-* 👁️ Computer Vision & Image Processing
-* 📊 Data Science & Data Analysis
-* 🧠 Artificial Intelligence
-* 💻 Competitive Programming & Algorithms
-* 🔬 Research-oriented problem solving
-
-I believe in learning through **building, experimenting, breaking things, and understanding why they work.**
+- 🔬 Currently researching attention-augmented ensemble architectures for histopathology classification
+- 🏆 600+ problems solved across Codeforces and LeetCode
+- 📈 Actively exploring Bangla NLP, federated learning, and agentic AI systems as long-term research directions
+- 🛠️ I believe in learning by building — real pipelines, real outputs, real results (never fabricated numbers)
 
 ---
 
-## 🚀 What I'm Working On
+## Featured Research
 
-<table>
-<tr>
-<td width="50%">
+### Explainable Attention-Ensemble Framework for Multi-Magnification OSCC Histopathology Classification
+*Presented at IEEE BECITHCON 2026*
 
-### 🤖 Machine Learning
+A 14-model CNN attention-ensemble framework combining CBAM, ECA, and self-attention mechanisms with soft-vote ensembling for oral cancer (OSCC) histopathology detection.
 
-Exploring machine learning and deep learning through practical projects, experiments, and model evaluation.
-
-</td>
-<td width="50%">
-
-### 👁️ Computer Vision
-
-Learning image processing, CNNs, visual representation, and computer vision techniques.
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### 📊 Data Science
-
-Working with datasets, preprocessing, feature engineering, visualization, and predictive modeling.
-
-</td>
-<td width="50%">
-
-### 💻 Problem Solving
-
-Improving algorithms and data structures through competitive programming.
-
-</td>
-</tr>
-</table>
+- **94.31%** accuracy, **100%** recall
+- Multi-magnification ablation study + Grad-CAM explainability
+- Validated with 5-fold cross-validation
+- Co-authored with Raisul Islam Al Sami and MD Rubaiyat Hasan
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-### 💻 Languages
+**Languages**
+<p><img src="https://skillicons.dev/icons?i=c,cpp,java,python,javascript"/></p>
 
+**ML / Deep Learning**
 <p>
-<img src="https://skillicons.dev/icons?i=c,cpp,java,python,javascript" />
-</p>
-
-### 🤖 AI / Data Science
-
-<p>
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow" />
-</p>
-
-<p>
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow"/>
 <img src="https://img.shields.io/badge/NumPy-6366F1?style=flat-square&logo=numpy&logoColor=white"/>
 <img src="https://img.shields.io/badge/Pandas-4F46E5?style=flat-square&logo=pandas&logoColor=white"/>
 <img src="https://img.shields.io/badge/Scikit--Learn-8B5CF6?style=flat-square&logo=scikit-learn&logoColor=white"/>
 </p>
 
-### 🔧 Tools & Development
-
-<p>
-<img src="https://skillicons.dev/icons?i=git,github,vscode,idea,jupyter" />
-</p>
+**Tools**
+<p><img src="https://skillicons.dev/icons?i=git,github,vscode,idea,jupyter"/></p>
 
 ---
 
-## ⭐ Featured Projects
+## Featured Projects
 
-### 🧠 100 Days of Deep Learning
-
-A hands-on learning journey focused on understanding and implementing deep learning concepts through practical experiments.
-
-**Focus:** Deep Learning • Neural Networks • Python
-
-<p>
-<a href="https://github.com/mahidrahman375/100-days-of-deep-learning">
-<img src="https://img.shields.io/badge/View_Project-6366F1?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-</p>
+| Project | Focus | Link |
+|---|---|---|
+| **100 Days of Deep Learning** | Structured DL fundamentals through daily hands-on implementation | [Repo](https://github.com/mahidrahman375/100-days-of-deep-learning) |
+| **Workload & Mental Health Dashboard** | Interactive Streamlit dashboard analyzing workload/mental-health data | [Repo](https://github.com/mahidrahman375/workload-and-mental-health-analysis-dashboard-using-stramlit) |
+| **Loan Data Analysis** | Pattern extraction and insight generation from loan datasets | [Repo](https://github.com/mahidrahman375/loan_data_analysis) |
+| **Coffee Shop Management System** | OOP-driven Java application | [Repo](https://github.com/mahidrahman375/Coffee-Shop-Management) |
 
 ---
 
-### 📊 Workload & Mental Health Analysis Dashboard
-
-An interactive data analysis and visualization project exploring workload and mental-health-related data through a Streamlit dashboard.
-
-**Focus:** Data Analysis • Visualization • Streamlit
-
-<p>
-<a href="https://github.com/mahidrahman375/workload-and-mental-health-analysis-dashboard-using-stramlit">
-<img src="https://img.shields.io/badge/View_Project-4F46E5?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-</p>
-
----
-
-### 📈 Loan Data Analysis
-
-A data analysis project focused on exploring loan-related data and extracting useful patterns and insights.
-
-**Focus:** Python • Pandas • Data Analysis
-
-<p>
-<a href="https://github.com/mahidrahman375/loan_data_analysis">
-<img src="https://img.shields.io/badge/View_Project-8B5CF6?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-</p>
-
----
-
-### ☕ Coffee Shop Management System
-
-A software project demonstrating object-oriented programming and application development using Java.
-
-**Focus:** Java • OOP • Software Development
-
-<p>
-<a href="https://github.com/mahidrahman375/Coffee-Shop-Management">
-<img src="https://img.shields.io/badge/View_Project-6366F1?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-</p>
-
----
-
-## 🧠 Areas of Interest
+## Competitive Programming
 
 <p align="center">
-
-<img src="https://img.shields.io/badge/Artificial_Intelligence-6366F1?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Machine_Learning-4F46E5?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Deep_Learning-8B5CF6?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Computer_Vision-6366F1?style=for-the-badge"/>
-
-<br>
-
-<img src="https://img.shields.io/badge/Data_Science-4F46E5?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Image_Processing-8B5CF6?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Algorithms-6366F1?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Research-4F46E5?style=for-the-badge"/>
-
+<a href="https://codeforces.com/profile/yeaminmahid"><img src="https://img.shields.io/badge/Codeforces-yeaminmahid-6366F1?style=for-the-badge&logo=codeforces&logoColor=white"/></a>
+<a href="https://leetcode.com/u/yeaminmahid/"><img src="https://img.shields.io/badge/LeetCode-yeaminmahid-8B5CF6?style=for-the-badge&logo=leetcode&logoColor=white"/></a>
 </p>
 
----
-
-## 💻 Competitive Programming
-
-I use competitive programming to strengthen my **problem-solving, algorithms, and data-structure skills**.
-
-<p align="center">
-
-<a href="https://codeforces.com/profile/yeaminmahid">
-<img src="https://img.shields.io/badge/Codeforces-yeaminmahid-6366F1?style=for-the-badge&logo=codeforces&logoColor=white"/>
-</a>
-
-<a href="https://leetcode.com/u/yeaminmahid/">
-<img src="https://img.shields.io/badge/LeetCode-yeaminmahid-8B5CF6?style=for-the-badge&logo=leetcode&logoColor=white"/>
-</a>
-
-</p>
-
-> **Think → Code → Debug → Learn → Repeat.**
+<div align="center"><i>600+ problems solved · Think → Code → Debug → Learn → Repeat</i></div>
 
 ---
 
-## 📚 Currently Learning
+## Currently Exploring
 
-* 🧠 Advanced Machine Learning
-* 🤖 Deep Learning architectures
-* 👁️ Computer Vision
-* 📷 Digital Image Processing
-* 📊 Feature Engineering & Model Evaluation
-* 🔍 Explainable AI
-* 💻 Advanced Data Structures & Algorithms
-* 🔬 Research Methodology
+`Explainable AI` · `Bangla NLP` · `Federated Learning` · `Agentic AI Systems` · `Advanced CV & Image Processing` · `Research Methodology`
 
 ---
 
-## 📊 GitHub Statistics
+## GitHub Stats
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=mahidrahman375&show_icons=true&hide_border=true&title_color=6366F1&icon_color=8B5CF6&text_color=6B7280&bg_color=00000000" height="180"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mahidrahman375&layout=compact&hide_border=true&title_color=6366F1&text_color=6B7280&bg_color=00000000" height="180"/>
-
+<img src="https://github-readme-stats.vercel.app/api?username=mahidrahman375&show_icons=true&hide_border=true&title_color=6366F1&icon_color=8B5CF6&text_color=6B7280&bg_color=00000000" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mahidrahman375&layout=compact&hide_border=true&title_color=6366F1&text_color=6B7280&bg_color=00000000" height="165"/>
 </div>
 
----
-
-## 🔥 Contribution Streak
-
 <div align="center">
-
-<img src="https://streak-stats.demolab.com?user=mahidrahman375&hide_border=true&background=00000000&ring=6366F1&fire=8B5CF6&currStreakLabel=6366F1" />
-
+<img src="https://streak-stats.demolab.com?user=mahidrahman375&hide_border=true&background=00000000&ring=6366F1&fire=8B5CF6&currStreakLabel=6366F1"/>
 </div>
 
----
-
-## 🐍 Contribution Graph
-
 <div align="center">
-
 <img src="https://raw.githubusercontent.com/mahidrahman375/mahidrahman375/gh-pages/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake"/>
-
-</div>
-
----
-
-## 🌱 My Learning Philosophy
-
-<div align="center">
-
-### Learn → Build → Experiment → Analyze → Improve
-
-<br>
-
-> *"The goal isn't just to make something work — it's to understand why it works."*
-
-</div>
-
----
-
-## 🤝 Let's Connect
-
-<div align="center">
-
-I'm always interested in connecting with people interested in **AI, Machine Learning, Computer Vision, Data Science, research, and software development.**
-
-<br><br>
-
-<a href="https://linkedin.com/in/yeamin-rahman-mahid-957a551a9">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-6366F1?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="https://github.com/mahidrahman375">
-<img src="https://img.shields.io/badge/GitHub-Follow-4F46E5?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<a href="https://codeforces.com/profile/yeaminmahid">
-<img src="https://img.shields.io/badge/Codeforces-Profile-8B5CF6?style=for-the-badge&logo=codeforces&logoColor=white"/>
-</a>
-
-<a href="https://leetcode.com/u/yeaminmahid/">
-<img src="https://img.shields.io/badge/LeetCode-Profile-6366F1?style=for-the-badge&logo=leetcode&logoColor=white"/>
-</a>
-
 </div>
 
 ---
 
 <div align="center">
+
+**Learn → Build → Experiment → Analyze → Improve**
+
+*"The goal isn't just to make something work — it's to understand why it works."*
+
+<a href="https://linkedin.com/in/yeamin-rahman-mahid-957a551a9"><img src="https://img.shields.io/badge/Let's_Connect-6366F1?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 
 <img src="https://komarev.com/ghpvc/?username=mahidrahman375&label=Profile%20Views&color=6366F1&style=flat"/>
-
-<br><br>
-
-### 💜 Thanks for visiting!
-
-**Keep learning. Keep building. Keep solving. 🚀**
 
 </div>
