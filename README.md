@@ -98,7 +98,7 @@ Data structures, complexity analysis and competitive programming practice.
 
 <table width="100%"><tr>
 <td width="52%" valign="top">
-<img src="https://github-readme-stats.vercel.app/api?username=mahidrahman375&show_icons=true&count_private=true&include_all_commits=false&hide_border=true&title_color=6366F1&icon_color=8B5CF6&text_color=c7d2fe&bg_color=00000000" width="100%" alt="GitHub statistics"/>
+<img src="https://github-readme-stats-kappa.vercel.app/api?username=mahidrahman375&show_icons=true&count_private=true&include_all_commits=false&hide_border=true&title_color=6366F1&icon_color=8B5CF6&text_color=c7d2fe&bg_color=00000000" width="100%" alt="GitHub statistics"/>
 </td>
 <td width="48%" valign="top">
 <img src="https://streak-stats.demolab.com?user=mahidrahman375&hide_border=true&background=00000000&ring=6366F1&fire=8B5CF6&currStreakLabel=6366F1&sideLabels=818cf8&dates=9b9bb4" width="100%" alt="Contribution streak"/>
@@ -107,7 +107,7 @@ Data structures, complexity analysis and competitive programming practice.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mahidrahman375&layout=compact&langs_count=6&hide_border=true&title_color=6366F1&icon_color=8B5CF6&text_color=c7d2fe&bg_color=00000000" width="52%" alt="Most used languages"/>
+<img src="https://github-readme-stats-kappa.vercel.app/api/top-langs/?username=mahidrahman375&layout=compact&langs_count=6&hide_border=true&title_color=6366F1&icon_color=8B5CF6&text_color=c7d2fe&bg_color=00000000" width="52%" alt="Most used languages"/>
 
 </div>
 
