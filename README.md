@@ -2,7 +2,7 @@
 
 <img
   src="assets/portrait-animation.gif"
-  width="300"
+  width="360"
   alt="Animated dot-matrix portrait of Yeamin Rahman Mahid"
 />
 
