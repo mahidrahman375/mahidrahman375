@@ -84,7 +84,7 @@ def create_dot_frame(
             visibility = smoothstep(frame_progress)
 
             # Keep enough dots visible even during animation.
-            effective = brightness * visibility
+            effective = brightness * (0.35 + 0.65 * visibility)
 
             if effective < 0.035:
                 continue
