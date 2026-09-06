@@ -1,1 +1,60 @@
 
+name: Generate Animated Dot Portrait
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - "assets/profile.png"
+      - "scripts/animate_dotify.py"
+      - ".github/workflows/dot-portrait.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Pillow
+        run: python -m pip install --upgrade pip Pillow
+
+      - name: Generate animated dot portrait
+        run: |
+          python scripts/animate_dotify.py \
+            assets/profile.png \
+            -o assets/portrait-animation.gif \
+            --cols 90 \
+            --frames 18 \
+            --duration 85 \
+            --scale 7 \
+            --equalize \
+            --detail 0.55 \
+            --color
+
+      - name: Commit generated portrait
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/portrait-animation.gif
+
+          if git diff --cached --quiet; then
+            echo "No portrait changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: update animated dot portrait"
+          git push
