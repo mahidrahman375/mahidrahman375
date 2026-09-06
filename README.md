@@ -1,5 +1,15 @@
 <div align="center">
 
+<img
+  src="assets/portrait-animation.gif"
+  width="300"
+  alt="Animated dot-matrix portrait of Yeamin Rahman Mahid"
+/>
+
+</div>
+
+<div align="center">
+
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=700&height=44&separator=%3B&lines=Exploring%20Machine%20Learning%20%26%20AI%3BComputer%20Vision%20%26%20Image%20Processing%3BLearning%20%E2%86%92%20Building%20%E2%86%92%20Breaking%20%E2%86%92%20Understanding" width="700" height="44" alt="Typing header"/>
 
 👋 Hi, I'm Yeamin Rahman Mahid
