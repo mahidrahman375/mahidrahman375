@@ -2,13 +2,13 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=700&height=44&separator=%3B&lines=Exploring%20Machine%20Learning%20%26%20AI%3BComputer%20Vision%20%26%20Image%20Processing%3BLearning%20%E2%86%92%20Building%20%E2%86%92%20Breaking%20%E2%86%92%20Understanding" width="700" height="44" alt="Typing header"/>
 
-# 👋 Hi, I'm Yeamin Rahman Mahid
+👋 Hi, I'm Yeamin Rahman Mahid
 
-### CSE Student · Machine Learning & Data Science
+CSE Student · Machine Learning & Data Science
 
-**East West University** · Dhaka, Bangladesh
+East West University · Dhaka, Bangladesh
 
-> I'm a Computer Science & Engineering student at East West University, learning how intelligent systems actually work — machine learning, computer vision, and the data work underneath them. I learn by building: notebooks, dashboards, and small systems I can break and then explain.
+I'm a Computer Science & Engineering student at East West University, learning how intelligent systems actually work — machine learning, computer vision, and the data work underneath them. I learn by building: notebooks, dashboards, and small systems I can break and then explain.
 
 <img src="https://img.shields.io/github/followers/mahidrahman375?style=flat-square&logo=github&labelColor=1e1b4b&color=1e1b4b&logoColor=818cf8" alt="GitHub followers" height="26"/> <img src="https://img.shields.io/badge/dynamic/json?style=flat-square&label=REPOS&labelColor=1e1b4b&color=1e1b4b&logo=github&logoColor=818cf8&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fmahidrahman375" alt="Public repositories" height="26"/> <img src="https://komarev.com/ghpvc/?username=mahidrahman375&label=PROFILE+VIEWS&color=6366F1&labelColor=1e1b4b&style=flat-square" alt="Profile views" height="26"/>
 
@@ -16,32 +16,44 @@
 
 </div>
 
----
+<div align="center">
 
-## 🧑‍💻 &nbsp;About Me
+<img src="./readme-assets/balcony-code-coffee.gif" width="49%" alt="Chilling with coffee while machine learning code runs on the laptop"/>
+<img src="./readme-assets/balcony-chill-code.gif" width="49%" alt="Relaxing on the balcony with coffee while code runs"/>
 
-- 🎓&nbsp; **CSE undergraduate** at East West University, Dhaka.
-- 🤖&nbsp; **Focus** — machine learning, deep learning, computer vision and data science.
-- 💻&nbsp; **Competitive programming** on Codeforces and LeetCode to keep algorithms sharp.
-- 📓&nbsp; **Coursework I publish** — CSE475 Machine Learning, CSE438 Digital Image Processing, CSE412 Software Engineering.
-- 🧪&nbsp; **How I learn** — build it, break it, read the docs, then explain it back.
-- 📫&nbsp; **Reach me** — LinkedIn below, or open an issue on any repo.
+<br>
 
----
+<i>☕ Let the model train. I’ll watch the sky.</i>
 
-## 🎯 &nbsp;Focus Areas
+</div>
+
+🧑‍💻  About Me
+
+🎓  CSE undergraduate at East West University, Dhaka.
+
+🤖  Focus — machine learning, deep learning, computer vision and data science.
+
+💻  Competitive programming on Codeforces and LeetCode to keep algorithms sharp.
+
+📓  Coursework I publish — CSE475 Machine Learning, CSE438 Digital Image Processing, CSE412 Software Engineering.
+
+🧪  How I learn — build it, break it, read the docs, then explain it back.
+
+📫  Reach me — LinkedIn below, or open an issue on any repo.
+
+🎯  Focus Areas
 
 <table width="100%"><tr>
 <td width="50%" valign="top">
 
-**🤖 Machine & Deep Learning**
+🤖 Machine & Deep Learning
 
 Supervised and unsupervised learning, ensembles, optimisation, neural network architectures, model evaluation.
 
 </td>
 <td width="50%" valign="top">
 
-**👁️ Computer Vision & Image Processing**
+👁️ Computer Vision & Image Processing
 
 Filtering, transforms, feature extraction and CNN-based visual representation.
 
@@ -49,52 +61,99 @@ Filtering, transforms, feature extraction and CNN-based visual representation.
 </tr><tr>
 <td width="50%" valign="top">
 
-**📊 Data Science & Analysis**
+📊 Data Science & Analysis
 
 Cleaning, feature engineering, exploratory analysis, visualisation and dashboards.
 
 </td>
 <td width="50%" valign="top">
 
-**💻 Algorithms & Problem Solving**
+💻 Algorithms & Problem Solving
 
 Data structures, complexity analysis and competitive programming practice.
 
 </td>
 </tr></table>
 
----
+🛠️  Tech Stack
 
-## 🛠️ &nbsp;Tech Stack
-
-**Languages**
+Languages
 
 <img src="https://img.shields.io/badge/C-13131f?style=flat-square&logo=c&logoColor=818cf8" alt="C" height="26"/> <img src="https://img.shields.io/badge/C%2B%2B-13131f?style=flat-square&logo=cplusplus&logoColor=818cf8" alt="C++" height="26"/> <img src="https://img.shields.io/badge/Java-13131f?style=flat-square&logo=openjdk&logoColor=818cf8" alt="Java" height="26"/> <img src="https://img.shields.io/badge/Python-13131f?style=flat-square&logo=python&logoColor=818cf8" alt="Python" height="26"/> <img src="https://img.shields.io/badge/JavaScript-13131f?style=flat-square&logo=javascript&logoColor=818cf8" alt="JavaScript" height="26"/>
 
-**ML & Data Science**
+ML & Data Science
 
 <img src="https://img.shields.io/badge/PyTorch-13131f?style=flat-square&logo=pytorch&logoColor=818cf8" alt="PyTorch" height="26"/> <img src="https://img.shields.io/badge/TensorFlow-13131f?style=flat-square&logo=tensorflow&logoColor=818cf8" alt="TensorFlow" height="26"/> <img src="https://img.shields.io/badge/scikit--learn-13131f?style=flat-square&logo=scikitlearn&logoColor=818cf8" alt="scikit-learn" height="26"/> <img src="https://img.shields.io/badge/pandas-13131f?style=flat-square&logo=pandas&logoColor=818cf8" alt="pandas" height="26"/> <img src="https://img.shields.io/badge/NumPy-13131f?style=flat-square&logo=numpy&logoColor=818cf8" alt="NumPy" height="26"/> <img src="https://img.shields.io/badge/OpenCV-13131f?style=flat-square&logo=opencv&logoColor=818cf8" alt="OpenCV" height="26"/> <img src="https://img.shields.io/badge/Kaggle-13131f?style=flat-square&logo=kaggle&logoColor=818cf8" alt="Kaggle" height="26"/>
 
-**Tools & Environment**
+Tools & Environment
 
 <img src="https://img.shields.io/badge/Git-13131f?style=flat-square&logo=git&logoColor=818cf8" alt="Git" height="26"/> <img src="https://img.shields.io/badge/GitHub-13131f?style=flat-square&logo=github&logoColor=818cf8" alt="GitHub" height="26"/> <img src="https://img.shields.io/badge/VS%20Code-13131f?style=flat-square&logo=visualstudiocode&logoColor=818cf8" alt="VS Code" height="26"/> <img src="https://img.shields.io/badge/IntelliJ%20IDEA-13131f?style=flat-square&logo=intellijidea&logoColor=818cf8" alt="IntelliJ IDEA" height="26"/> <img src="https://img.shields.io/badge/Jupyter-13131f?style=flat-square&logo=jupyter&logoColor=818cf8" alt="Jupyter" height="26"/> <img src="https://img.shields.io/badge/Google%20Colab-13131f?style=flat-square&logo=googlecolab&logoColor=818cf8" alt="Google Colab" height="26"/> <img src="https://img.shields.io/badge/Streamlit-13131f?style=flat-square&logo=streamlit&logoColor=818cf8" alt="Streamlit" height="26"/>
 
----
+⭐  Featured Projects
 
-## ⭐ &nbsp;Featured Projects
+Project
 
-| Project | What it is | Built with | |
-|---|---|---|---|
-| [**100-days-of-deep-learning**](https://github.com/mahidrahman375/100-days-of-deep-learning)<br/><sub>`Deep Learning`</sub> | A 100-day deep learning journey — daily Colab notebooks covering architectures, training loops and experiments. | Python · Colab · Jupyter | <img src="https://img.shields.io/github/last-commit/mahidrahman375/100-days-of-deep-learning?style=flat-square&logo=github&label=updated&labelColor=1e1b4b&color=1e1b4b&logoColor=818cf8" alt="Last updated" height="20"/> |
-| [**100-days-of-machine-learning**](https://github.com/mahidrahman375/100-days-of-machine-learning)<br/><sub>`Machine Learning`</sub> | Machine learning through theory, code and projects — one concept at a time, with practical implementations. | Python · scikit-learn · Jupyter | <img src="https://img.shields.io/github/last-commit/mahidrahman375/100-days-of-machine-learning?style=flat-square&logo=github&label=updated&labelColor=1e1b4b&color=1e1b4b&logoColor=818cf8" alt="Last updated" height="20"/> |
-| [**CSE475-Machine-Learning**](https://github.com/mahidrahman375/CSE475-Machine-Learning)<br/><sub>`Coursework`</sub> | Lab work for CSE475: supervised and unsupervised learning, ensemble methods, optimisation and neural networks. | Python · scikit-learn · Jupyter | <img src="https://img.shields.io/github/last-commit/mahidrahman375/CSE475-Machine-Learning?style=flat-square&logo=github&label=updated&labelColor=1e1b4b&color=1e1b4b&logoColor=818cf8" alt="Last updated" height="20"/> |
-| [**CSE438-Digital-Image-Processing**](https://github.com/mahidrahman375/CSE438-Digital-Image-Processing)<br/><sub>`Coursework`</sub> | Digital image processing experiments in Python — implementations, reports and visualisations for CSE438. | Python · OpenCV · Jupyter | <img src="https://img.shields.io/github/last-commit/mahidrahman375/CSE438-Digital-Image-Processing?style=flat-square&logo=github&label=updated&labelColor=1e1b4b&color=1e1b4b&logoColor=818cf8" alt="Last updated" height="20"/> |
-| [**Workload & Mental Health Dashboard**](https://github.com/mahidrahman375/workload-and-mental-health-analysis-dashboard-using-stramlit)<br/><sub>`Data Analysis`</sub> | An interactive Streamlit dashboard exploring workload and mental-health-related data through analysis and visualisation. | Python · Streamlit · pandas | <img src="https://img.shields.io/github/last-commit/mahidrahman375/workload-and-mental-health-analysis-dashboard-using-stramlit?style=flat-square&logo=github&label=updated&labelColor=1e1b4b&color=1e1b4b&logoColor=818cf8" alt="Last updated" height="20"/> |
-| [**Loan Data Analysis**](https://github.com/mahidrahman375/loan_data_analysis)<br/><sub>`Data Analysis`</sub> | Exploratory analysis of loan data — distributions, risk patterns and the visualisations that make them readable. | Python · pandas · Jupyter | <img src="https://img.shields.io/github/last-commit/mahidrahman375/loan_data_analysis?style=flat-square&logo=github&label=updated&labelColor=1e1b4b&color=1e1b4b&logoColor=818cf8" alt="Last updated" height="20"/> |
+What it is
 
----
+Built with
 
-## 📊 &nbsp;GitHub Statistics
+
+
+100-days-of-deep-learning
+<sub>Deep Learning</sub>
+
+A 100-day deep learning journey — daily Colab notebooks covering architectures, training loops and experiments.
+
+Python · Colab · Jupyter
+
+<img src="https://img.shields.io/github/last-commit/mahidrahman375/100-days-of-deep-learning?style=flat-square&logo=github&label=updated&labelColor=1e1b4b&color=1e1b4b&logoColor=818cf8" alt="Last updated" height="20"/>
+
+100-days-of-machine-learning
+<sub>Machine Learning</sub>
+
+Machine learning through theory, code and projects — one concept at a time, with practical implementations.
+
+Python · scikit-learn · Jupyter
+
+<img src="https://img.shields.io/github/last-commit/mahidrahman375/100-days-of-machine-learning?style=flat-square&logo=github&label=updated&labelColor=1e1b4b&color=1e1b4b&logoColor=818cf8" alt="Last updated" height="20"/>
+
+CSE475-Machine-Learning
+<sub>Coursework</sub>
+
+Lab work for CSE475: supervised and unsupervised learning, ensemble methods, optimisation and neural networks.
+
+Python · scikit-learn · Jupyter
+
+<img src="https://img.shields.io/github/last-commit/mahidrahman375/CSE475-Machine-Learning?style=flat-square&logo=github&label=updated&labelColor=1e1b4b&color=1e1b4b&logoColor=818cf8" alt="Last updated" height="20"/>
+
+CSE438-Digital-Image-Processing
+<sub>Coursework</sub>
+
+Digital image processing experiments in Python — implementations, reports and visualisations for CSE438.
+
+Python · OpenCV · Jupyter
+
+<img src="https://img.shields.io/github/last-commit/mahidrahman375/CSE438-Digital-Image-Processing?style=flat-square&logo=github&label=updated&labelColor=1e1b4b&color=1e1b4b&logoColor=818cf8" alt="Last updated" height="20"/>
+
+Workload & Mental Health Dashboard
+<sub>Data Analysis</sub>
+
+An interactive Streamlit dashboard exploring workload and mental-health-related data through analysis and visualisation.
+
+Python · Streamlit · pandas
+
+<img src="https://img.shields.io/github/last-commit/mahidrahman375/workload-and-mental-health-analysis-dashboard-using-stramlit?style=flat-square&logo=github&label=updated&labelColor=1e1b4b&color=1e1b4b&logoColor=818cf8" alt="Last updated" height="20"/>
+
+Loan Data Analysis
+<sub>Data Analysis</sub>
+
+Exploratory analysis of loan data — distributions, risk patterns and the visualisations that make them readable.
+
+Python · pandas · Jupyter
+
+<img src="https://img.shields.io/github/last-commit/mahidrahman375/loan_data_analysis?style=flat-square&logo=github&label=updated&labelColor=1e1b4b&color=1e1b4b&logoColor=818cf8" alt="Last updated" height="20"/>
+
+📊  GitHub Statistics
 
 <table width="100%"><tr>
 <td width="52%" valign="top">
@@ -111,9 +170,7 @@ Data structures, complexity analysis and competitive programming practice.
 
 </div>
 
----
-
-## 🐍 &nbsp;Contribution Activity
+🐍  Contribution Activity
 
 <div align="center">
 
@@ -121,34 +178,30 @@ Data structures, complexity analysis and competitive programming practice.
 
 </div>
 
----
+💻  Competitive Programming
 
-## 💻 &nbsp;Competitive Programming
-
-Competitive programming is how I keep **algorithms and data structures** sharp.
+Competitive programming is how I keep algorithms and data structures sharp.
 
 <div align="center">
 
 <a href="https://codeforces.com/profile/yeaminmahid"><img src="https://img.shields.io/badge/Codeforces%20%C2%B7%20yeaminmahid-6366F1?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces profile" height="32"/></a> <a href="https://leetcode.com/u/yeaminmahid/"><img src="https://img.shields.io/badge/LeetCode%20%C2%B7%20yeaminmahid-8B5CF6?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode profile" height="32"/></a>
 
-> **Think → Code → Debug → Learn → Repeat.**
+Think → Code → Debug → Learn → Repeat.
 
 </div>
 
----
-
-## 🤝 &nbsp;Let's Connect
+🤝  Let's Connect
 
 <div align="center">
 
-Always happy to talk about **AI, machine learning, computer vision, data science, research and software development.**
+Always happy to talk about AI, machine learning, computer vision, data science, research and software development.
 
 <a href="https://linkedin.com/in/yeamin-rahman-mahid-957a551a9"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-4F46E5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" height="32"/></a>
 
-### Learn → Build → Experiment → Analyze → Improve
+Learn → Build → Experiment → Analyze → Improve
 
-> *"The goal isn't just to make something work — it's to understand why it works."*
+"The goal isn't just to make something work — it's to understand why it works."
 
-**Keep learning. Keep building. Keep solving. 🚀**
+Keep learning. Keep building. Keep solving. 🚀
 
 </div>
