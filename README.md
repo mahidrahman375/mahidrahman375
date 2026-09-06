@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="assets/portrait-animation.gif" width="280" alt="Animated dot-matrix portrait of Yeamin Rahman Mahid" />
+  <img src="assets/portrait-animation.gif" width="240" alt="Animated dot-matrix portrait of Yeamin Rahman Mahid" />
 </div>
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&separator=%3B&lines=Exploring%20Machine%20Learning%20%26%20AI%3BComputer%20Vision%20%26%20Image%20Processing%3BLearning%20%E2%86%92%20Building%20%E2%86%92%20Breaking%20%E2%86%92%20Understanding" alt="Typing header"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=620&height=40&separator=%3B&lines=Exploring+Machine+Learning+%26+AI;Computer+Vision+%26+Image+Processing;Learning+%E2%86%92+Building+%E2%86%92+Breaking+%E2%86%92+Understanding" alt="Typing header" />
 
 # 👋 Hi, I'm Yeamin Rahman Mahid
 
