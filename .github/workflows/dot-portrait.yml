@@ -36,12 +36,10 @@ jobs:
           python scripts/animate_dotify.py \
             assets/profile.png \
             -o assets/portrait-animation.gif \
-            --cols 100 \
+            --cols 120 \
             --frames 24 \
-            --duration 100 \
-            --scale 7 \
-            --equalize \
-            --color
+            --duration 90 \
+            --scale 5
 
       - name: Commit generated portrait
         run: |
