@@ -1,159 +1,171 @@
-<div align="center">
-
-<img src="assets/portrait.png" width="180" height="180" alt="Portrait of Yeamin Rahman Mahid" />
-
-Yeamin Rahman Mahid
-
-CSE Undergraduate · Machine Learning · Computer Vision
-
-East West University   /   Dhaka, Bangladesh
-
-Learning how intelligent systems work — one experiment at a time.
-
-<a href="https://linkedin.com/in/yeamin-rahman-mahid-957a551a9"><img src="https://img.shields.io/badge/LinkedIn-6366F1?style=for-the-badge" alt="Connect on LinkedIn" /></a>
-<a href="https://github.com/mahidrahman375?tab=repositories"><img src="https://img.shields.io/badge/Explore_My_Work-18181B?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Explore my repositories" /></a>
-<a href="https://codeforces.com/profile/yeaminmahid"><img src="https://img.shields.io/badge/Codeforces-18181B?style=for-the-badge&amp;logo=codeforces&amp;logoColor=A5B4FC" alt="Codeforces profile" /></a>
-<a href="https://leetcode.com/u/yeaminmahid/"><img src="https://img.shields.io/badge/LeetCode-18181B?style=for-the-badge&amp;logo=leetcode&amp;logoColor=A5B4FC" alt="LeetCode profile" /></a>
-
-About   ·   Projects   ·   Toolkit   ·   Connect
-
-</div>
-
-About
-
-I'm a Computer Science and Engineering student at East West University, exploring machine learning, deep learning and computer vision. I turn what I study into notebooks, image-processing experiments and interactive dashboards.
-
-I learn best by implementing an idea, testing where it fails and explaining what I understand. Alongside my AI and data work, I practise algorithms and data structures on Codeforces and LeetCode.
-
-Selected projects
-
-Learning in public
-
-Project
-
-What you'll find
-
-Tools
-
-100 Days of Deep Learning
-
-A notebook-based learning journey through neural networks, architectures and training experiments.
-
-Python · Jupyter · Colab
-
-100 Days of Machine Learning
-
-Machine learning concepts explored through theory, practical implementations and experiments.
-
-Python · scikit-learn · Jupyter
-
-Data and visual computing
-
-Project
-
-What you'll find
-
-Tools
-
-Workload & Mental Health Dashboard
-
-An interactive dashboard for exploring workload and mental-health-related data.
-
-Python · Streamlit · pandas
-
-Loan Data Analysis
-
-Exploratory analysis of loan data, distributions and patterns through visualisation.
-
-Python · pandas · Jupyter
-
-Digital Image Processing
-
-Image-processing implementations, experiments, reports and visualisations for CSE438.
-
-Python · OpenCV · Jupyter
-
-Machine Learning Coursework
-
-CSE475 lab work covering supervised and unsupervised learning, ensembles and neural networks.
-
-Python · scikit-learn · Jupyter
-
-<p align="right"><a href="https://github.com/mahidrahman375?tab=repositories">Browse all repositories →</a></p>
-
-What I'm exploring
-
-Area
-
-Topics
-
-Machine & deep learning
-
-Supervised and unsupervised learning, ensembles, optimisation, neural networks and model evaluation
-
-Computer vision
-
-Filtering, transforms, feature extraction and CNN-based representations
-
-Data science
-
-Data cleaning, exploratory analysis, feature engineering, visualisation and dashboards
-
-Problem solving
-
-Data structures, algorithm design, complexity analysis and competitive programming
-
-Toolkit
-
-<p>
-<img src="https://img.shields.io/badge/Python-18181B?style=flat-square&amp;logo=python&amp;logoColor=A5B4FC" alt="Python" />
-<img src="https://img.shields.io/badge/PyTorch-18181B?style=flat-square&amp;logo=pytorch&amp;logoColor=A5B4FC" alt="PyTorch" />
-<img src="https://img.shields.io/badge/TensorFlow-18181B?style=flat-square&amp;logo=tensorflow&amp;logoColor=A5B4FC" alt="TensorFlow" />
-<img src="https://img.shields.io/badge/scikit--learn-18181B?style=flat-square&amp;logo=scikitlearn&amp;logoColor=A5B4FC" alt="scikit-learn" />
-<img src="https://img.shields.io/badge/OpenCV-18181B?style=flat-square&amp;logo=opencv&amp;logoColor=A5B4FC" alt="OpenCV" />
-<img src="https://img.shields.io/badge/Streamlit-18181B?style=flat-square&amp;logo=streamlit&amp;logoColor=A5B4FC" alt="Streamlit" />
+<!-- Root README: uses the existing nested design assets, root portrait GIF and gh-pages snake. -->
+<p align="center">
+  <img src="./Mahid_GitHub_Profile/assets/header.svg" width="100%" alt="Yeamin Rahman Mahid — Machine Learning, Computer Vision and Data Science. East West University, Dhaka, Bangladesh." />
 </p>
 
-Category
-
-Technologies
-
-Languages
-
-Python, C, C++, Java, JavaScript
-
-ML & data
-
-PyTorch, TensorFlow, scikit-learn, pandas, NumPy, OpenCV
-
-Notebooks & apps
-
-Jupyter, Google Colab, Kaggle, Streamlit
-
-Development tools
-
-Git, GitHub, VS Code, IntelliJ IDEA
-
-<details>
-<summary><strong>Coursework behind the projects</strong></summary>
-
-CSE475 — Machine Learning: model building, learning algorithms and evaluation.
-
-CSE438 — Digital Image Processing: image-processing concepts and practical experiments.
-
-CSE412 — Software Engineering: software development coursework.
-
-</details>
-
-Connect
-
-I'm happy to exchange ideas about machine learning, computer vision, data science and software development.
-
-Connect on LinkedIn · Find me on GitHub
-
-For questions about a project, open an issue in its repository.
+<table>
+<tr>
+<td width="25%" align="center" valign="middle">
+  <img src="./assets/portrait-animation.gif" width="200" alt="Animated dot portrait of Yeamin Rahman Mahid" />
+</td>
+<td width="75%" valign="middle">
+  <h2>Hi, I'm Mahid.</h2>
+  <p><strong>CSE undergraduate exploring how intelligent systems work.</strong></p>
+  <p>I study at <strong>East West University</strong> and learn by building: machine-learning notebooks, computer-vision experiments and interactive data dashboards.</p>
+  <p>I like turning a concept into code, testing its limits, and explaining what I learn along the way.</p>
+  <p>
+    <a href="https://linkedin.com/in/yeamin-rahman-mahid-957a551a9"><img src="./Mahid_GitHub_Profile/assets/linkedin.svg" width="116" height="34" alt="LinkedIn" /></a>
+    <a href="https://github.com/mahidrahman375?tab=repositories"><img src="./Mahid_GitHub_Profile/assets/github.svg" width="108" height="34" alt="GitHub repositories" /></a>
+  </p>
+</td>
+</tr>
+</table>
 
 <p align="center">
-<strong>Learn. Build. Question. Improve.</strong><br />
-<sub>The goal is to understand why it works.</sub>
+  <a href="#focus">Focus</a> &nbsp; · &nbsp;
+  <a href="#projects">Projects</a> &nbsp; · &nbsp;
+  <a href="#toolkit">Toolkit</a> &nbsp; · &nbsp;
+  <a href="#contribution-snake">Snake</a> &nbsp; · &nbsp;
+  <a href="#github-snapshot">GitHub</a> &nbsp; · &nbsp;
+  <a href="#connect">Connect</a>
 </p>
+
+<p><img src="./Mahid_GitHub_Profile/assets/divider.svg" width="100%" height="24" alt="" /></p>
+
+## Focus
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>01 / Machine &amp; Deep Learning</h3>
+<p>Supervised and unsupervised learning, ensembles, optimisation, neural networks and model evaluation.</p>
+</td>
+<td width="50%" valign="top">
+<h3>02 / Computer Vision</h3>
+<p>Image filtering, transforms, feature extraction and CNN-based visual representations.</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>03 / Data Science</h3>
+<p>Data cleaning, exploratory analysis, feature engineering, visualisation and interactive dashboards.</p>
+</td>
+<td width="50%" valign="top">
+<h3>04 / Algorithms</h3>
+<p>Data structures, complexity analysis and competitive programming on Codeforces and LeetCode.</p>
+</td>
+</tr>
+</table>
+
+<p><img src="./Mahid_GitHub_Profile/assets/divider.svg" width="100%" height="24" alt="" /></p>
+
+## Projects
+
+A selection of my learning journeys, coursework and practical experiments.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<p><sub>DEEP LEARNING · LEARNING IN PUBLIC</sub></p>
+<h3><a href="https://github.com/mahidrahman375/100-days-of-deep-learning">100 Days of Deep Learning ↗</a></h3>
+<p>Daily notebooks exploring neural-network architectures, training loops and experiments.</p>
+<p><code>Python</code> <code>Jupyter</code> <code>Colab</code></p>
+</td>
+<td width="50%" valign="top">
+<p><sub>MACHINE LEARNING · LEARNING IN PUBLIC</sub></p>
+<h3><a href="https://github.com/mahidrahman375/100-days-of-machine-learning">100 Days of Machine Learning ↗</a></h3>
+<p>Machine-learning theory and practical implementations, explored one concept at a time.</p>
+<p><code>Python</code> <code>scikit-learn</code> <code>Jupyter</code></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<p><sub>DATA ANALYSIS · INTERACTIVE APP</sub></p>
+<h3><a href="https://github.com/mahidrahman375/workload-and-mental-health-analysis-dashboard-using-stramlit">Workload &amp; Mental Health ↗</a></h3>
+<p>An interactive dashboard for exploring workload and mental-health-related data through analysis and visualisation.</p>
+<p><code>Python</code> <code>Streamlit</code> <code>pandas</code></p>
+</td>
+<td width="50%" valign="top">
+<p><sub>DATA ANALYSIS · EXPLORATION</sub></p>
+<h3><a href="https://github.com/mahidrahman375/loan_data_analysis">Loan Data Analysis ↗</a></h3>
+<p>Exploratory analysis of loan data, using distributions and visualisations to understand patterns.</p>
+<p><code>Python</code> <code>pandas</code> <code>Jupyter</code></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<p><sub>COMPUTER VISION · CSE438</sub></p>
+<h3><a href="https://github.com/mahidrahman375/CSE438-Digital-Image-Processing">Digital Image Processing ↗</a></h3>
+<p>Image-processing implementations, experiments, reports and visualisations from my university coursework.</p>
+<p><code>Python</code> <code>OpenCV</code> <code>Jupyter</code></p>
+</td>
+<td width="50%" valign="top">
+<p><sub>MACHINE LEARNING · CSE475</sub></p>
+<h3><a href="https://github.com/mahidrahman375/CSE475-Machine-Learning">Machine Learning Coursework ↗</a></h3>
+<p>Lab work covering supervised and unsupervised learning, ensembles, optimisation and neural networks.</p>
+<p><code>Python</code> <code>scikit-learn</code> <code>Jupyter</code></p>
+</td>
+</tr>
+</table>
+
+<p align="right"><a href="https://github.com/mahidrahman375?tab=repositories"><strong>Explore all repositories →</strong></a></p>
+
+<p><img src="./Mahid_GitHub_Profile/assets/divider.svg" width="100%" height="24" alt="" /></p>
+
+## Toolkit
+
+<p><img src="./Mahid_GitHub_Profile/assets/languages.svg" width="100%" alt="Languages: Python, C, C++, Java and JavaScript" /></p>
+<p><img src="./Mahid_GitHub_Profile/assets/ml.svg" width="100%" alt="Machine learning and data: PyTorch, TensorFlow, scikit-learn, OpenCV, pandas and NumPy" /></p>
+<p><img src="./Mahid_GitHub_Profile/assets/tools.svg" width="100%" alt="Tools: Git, GitHub, Jupyter, Google Colab, Kaggle, Streamlit, VS Code and IntelliJ IDEA" /></p>
+
+<details>
+<summary><strong>University coursework</strong></summary>
+<ul>
+<li><strong>CSE475:</strong> Machine Learning</li>
+<li><strong>CSE438:</strong> Digital Image Processing</li>
+<li><strong>CSE412:</strong> Software Engineering</li>
+</ul>
+</details>
+
+<p><img src="./Mahid_GitHub_Profile/assets/divider.svg" width="100%" height="24" alt="" /></p>
+
+## Contribution snake
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/mahidrahman375/mahidrahman375/gh-pages/github-contribution-grid-snake.svg" width="100%" alt="Animated snake moving through my GitHub contribution graph" />
+</p>
+
+<p><img src="./Mahid_GitHub_Profile/assets/divider.svg" width="100%" height="24" alt="" /></p>
+
+## GitHub snapshot
+
+<p><img src="./Mahid_GitHub_Profile/assets/github-stats.svg" width="100%" alt="Dated snapshot of public repositories, followers and stars on non-fork repositories; see image for capture date." /></p>
+
+[Repositories and recent updates](https://github.com/mahidrahman375?tab=repositories) · [Contribution activity](https://github.com/mahidrahman375?tab=overview)
+
+<p><img src="./Mahid_GitHub_Profile/assets/divider.svg" width="100%" height="24" alt="" /></p>
+
+## Problem solving
+
+I practise algorithms and data structures to strengthen the reasoning behind the code.
+
+<p>
+<a href="https://codeforces.com/profile/yeaminmahid"><img src="./Mahid_GitHub_Profile/assets/codeforces.svg" width="142" height="34" alt="Codeforces: yeaminmahid" /></a>
+<a href="https://leetcode.com/u/yeaminmahid/"><img src="./Mahid_GitHub_Profile/assets/leetcode.svg" width="124" height="34" alt="LeetCode: yeaminmahid" /></a>
+</p>
+
+**Think → Implement → Test → Understand**
+
+<p><img src="./Mahid_GitHub_Profile/assets/divider.svg" width="100%" height="24" alt="" /></p>
+
+## Connect
+
+Let's talk about **AI, machine learning, computer vision, data science or software development**.
+
+[Message me on LinkedIn](https://linkedin.com/in/yeamin-rahman-mahid-957a551a9) · [Explore my GitHub](https://github.com/mahidrahman375)
+
+For a question about a project, open an issue in that repository.
+
+---
+
+<p align="center"><img src="./Mahid_GitHub_Profile/assets/footer.svg" width="100%" alt="Learn → Build → Experiment → Improve" /></p>
