@@ -1,12 +1,12 @@
-<!-- Upload README.md, assets/, scripts/ and .github/workflows/ to the repository root. -->
+<!-- Root README: uses the existing nested design assets, root portrait GIF and gh-pages snake. -->
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="Yeamin Rahman Mahid — Machine Learning, Computer Vision and Data Science. East West University, Dhaka, Bangladesh." />
+  <img src="./Mahid_GitHub_Profile/assets/header.svg" width="100%" alt="Yeamin Rahman Mahid — Machine Learning, Computer Vision and Data Science. East West University, Dhaka, Bangladesh." />
 </p>
 
 <table>
 <tr>
 <td width="25%" align="center" valign="middle">
-  <img src="./assets/portrait.png" width="200" alt="Portrait of Yeamin Rahman Mahid" />
+  <img src="./assets/portrait-animation.gif" width="200" alt="Animated dot portrait of Yeamin Rahman Mahid" />
 </td>
 <td width="75%" valign="middle">
   <h2>Hi, I'm Mahid.</h2>
@@ -14,8 +14,8 @@
   <p>I study at <strong>East West University</strong> and learn by building: machine-learning notebooks, computer-vision experiments and interactive data dashboards.</p>
   <p>I like turning a concept into code, testing its limits, and explaining what I learn along the way.</p>
   <p>
-    <a href="https://linkedin.com/in/yeamin-rahman-mahid-957a551a9"><img src="./assets/linkedin.svg" width="116" height="34" alt="LinkedIn" /></a>
-    <a href="https://github.com/mahidrahman375?tab=repositories"><img src="./assets/github.svg" width="108" height="34" alt="GitHub repositories" /></a>
+    <a href="https://linkedin.com/in/yeamin-rahman-mahid-957a551a9"><img src="./Mahid_GitHub_Profile/assets/linkedin.svg" width="116" height="34" alt="LinkedIn" /></a>
+    <a href="https://github.com/mahidrahman375?tab=repositories"><img src="./Mahid_GitHub_Profile/assets/github.svg" width="108" height="34" alt="GitHub repositories" /></a>
   </p>
 </td>
 </tr>
@@ -30,7 +30,7 @@
   <a href="#connect">Connect</a>
 </p>
 
-<p><img src="./assets/divider.svg" width="100%" height="24" alt="" /></p>
+<p><img src="./Mahid_GitHub_Profile/assets/divider.svg" width="100%" height="24" alt="" /></p>
 
 ## Focus
 
@@ -57,7 +57,7 @@
 </tr>
 </table>
 
-<p><img src="./assets/divider.svg" width="100%" height="24" alt="" /></p>
+<p><img src="./Mahid_GitHub_Profile/assets/divider.svg" width="100%" height="24" alt="" /></p>
 
 ## Projects
 
@@ -110,13 +110,13 @@ A selection of my learning journeys, coursework and practical experiments.
 
 <p align="right"><a href="https://github.com/mahidrahman375?tab=repositories"><strong>Explore all repositories →</strong></a></p>
 
-<p><img src="./assets/divider.svg" width="100%" height="24" alt="" /></p>
+<p><img src="./Mahid_GitHub_Profile/assets/divider.svg" width="100%" height="24" alt="" /></p>
 
 ## Toolkit
 
-<p><img src="./assets/languages.svg" width="100%" alt="Languages: Python, C, C++, Java and JavaScript" /></p>
-<p><img src="./assets/ml.svg" width="100%" alt="Machine learning and data: PyTorch, TensorFlow, scikit-learn, OpenCV, pandas and NumPy" /></p>
-<p><img src="./assets/tools.svg" width="100%" alt="Tools: Git, GitHub, Jupyter, Google Colab, Kaggle, Streamlit, VS Code and IntelliJ IDEA" /></p>
+<p><img src="./Mahid_GitHub_Profile/assets/languages.svg" width="100%" alt="Languages: Python, C, C++, Java and JavaScript" /></p>
+<p><img src="./Mahid_GitHub_Profile/assets/ml.svg" width="100%" alt="Machine learning and data: PyTorch, TensorFlow, scikit-learn, OpenCV, pandas and NumPy" /></p>
+<p><img src="./Mahid_GitHub_Profile/assets/tools.svg" width="100%" alt="Tools: Git, GitHub, Jupyter, Google Colab, Kaggle, Streamlit, VS Code and IntelliJ IDEA" /></p>
 
 <details>
 <summary><strong>University coursework</strong></summary>
@@ -127,40 +127,36 @@ A selection of my learning journeys, coursework and practical experiments.
 </ul>
 </details>
 
-<p><img src="./assets/divider.svg" width="100%" height="24" alt="" /></p>
+<p><img src="./Mahid_GitHub_Profile/assets/divider.svg" width="100%" height="24" alt="" /></p>
 
 ## Contribution snake
 
 <p align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/snake-light.svg" />
-  <img src="./assets/snake-light.svg" width="100%" alt="Animated snake moving through my GitHub contribution graph" />
-</picture>
+<img src="https://raw.githubusercontent.com/mahidrahman375/mahidrahman375/gh-pages/github-contribution-grid-snake.svg" width="100%" alt="Animated snake moving through my GitHub contribution graph" />
 </p>
 
-<p><img src="./assets/divider.svg" width="100%" height="24" alt="" /></p>
+<p><img src="./Mahid_GitHub_Profile/assets/divider.svg" width="100%" height="24" alt="" /></p>
 
 ## GitHub snapshot
 
-<p><img src="./assets/github-stats.svg" width="100%" alt="Dated snapshot of public repositories, followers and stars on non-fork repositories; see image for capture date." /></p>
+<p><img src="./Mahid_GitHub_Profile/assets/github-stats.svg" width="100%" alt="Dated snapshot of public repositories, followers and stars on non-fork repositories; see image for capture date." /></p>
 
 [Repositories and recent updates](https://github.com/mahidrahman375?tab=repositories) · [Contribution activity](https://github.com/mahidrahman375?tab=overview)
 
-<p><img src="./assets/divider.svg" width="100%" height="24" alt="" /></p>
+<p><img src="./Mahid_GitHub_Profile/assets/divider.svg" width="100%" height="24" alt="" /></p>
 
 ## Problem solving
 
 I practise algorithms and data structures to strengthen the reasoning behind the code.
 
 <p>
-<a href="https://codeforces.com/profile/yeaminmahid"><img src="./assets/codeforces.svg" width="142" height="34" alt="Codeforces: yeaminmahid" /></a>
-<a href="https://leetcode.com/u/yeaminmahid/"><img src="./assets/leetcode.svg" width="124" height="34" alt="LeetCode: yeaminmahid" /></a>
+<a href="https://codeforces.com/profile/yeaminmahid"><img src="./Mahid_GitHub_Profile/assets/codeforces.svg" width="142" height="34" alt="Codeforces: yeaminmahid" /></a>
+<a href="https://leetcode.com/u/yeaminmahid/"><img src="./Mahid_GitHub_Profile/assets/leetcode.svg" width="124" height="34" alt="LeetCode: yeaminmahid" /></a>
 </p>
 
 **Think → Implement → Test → Understand**
 
-<p><img src="./assets/divider.svg" width="100%" height="24" alt="" /></p>
+<p><img src="./Mahid_GitHub_Profile/assets/divider.svg" width="100%" height="24" alt="" /></p>
 
 ## Connect
 
@@ -172,4 +168,4 @@ For a question about a project, open an issue in that repository.
 
 ---
 
-<p align="center"><img src="./assets/footer.svg" width="100%" alt="Learn → Build → Experiment → Improve" /></p>
+<p align="center"><img src="./Mahid_GitHub_Profile/assets/footer.svg" width="100%" alt="Learn → Build → Experiment → Improve" /></p>
