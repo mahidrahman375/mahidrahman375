@@ -1,172 +1,115 @@
 #!/usr/bin/env python3
-"""Animated dot-matrix portrait generator."""
+"""Readable animated dot portrait. Dependency: Pillow >= 10.
 
+The dots keep nearly constant area so shadow details are not attenuated twice.
+A low-opacity source underlay restores detail at small README display sizes.
+The only motion is a periodic lighting sweep; facial geometry never shifts.
+"""
 from __future__ import annotations
-
 import argparse
 import math
 from pathlib import Path
-
-from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageOps
-
-
-def parse_args() -> argparse.Namespace:
-    p = argparse.ArgumentParser()
-    p.add_argument("--input", required=True)
-    p.add_argument("--output", required=True)
-    p.add_argument("--cols", type=int, default=72)
-    p.add_argument("--frames", type=int, default=16)
-    p.add_argument("--duration", type=int, default=90)
-    p.add_argument("--detail", type=float, default=0.62)
-    p.add_argument("--color", action="store_true")
-    p.add_argument("--bg", default="#0b0f14")
-    p.add_argument("--dot", default="#e8eef5")
-    p.add_argument("--size", type=int, default=720)
-    return p.parse_args()
+from PIL import Image, ImageColor, ImageDraw, ImageEnhance, ImageFilter, ImageOps
 
 
-def hex_to_rgb(value: str) -> tuple[int, int, int]:
-    v = value.lstrip("#")
-    return int(v[0:2], 16), int(v[2:4], 16), int(v[4:6], 16)
+def parse_args():
+    p = argparse.ArgumentParser(description=__doc__)
+    p.add_argument('--input', required=True)
+    p.add_argument('--output', required=True)
+    p.add_argument('--cols', type=int, default=110)
+    p.add_argument('--frames', type=int, default=48)
+    p.add_argument('--duration', type=int, default=90, help='Milliseconds per frame')
+    p.add_argument('--detail', type=float, default=0.88, help='Detail retention, 0 to 1')
+    p.add_argument('--color', action='store_true')
+    p.add_argument('--bg', default='#0b0f14')
+    p.add_argument('--dot', default='#e8eef5')
+    p.add_argument('--size', type=int, default=660)
+    p.add_argument('--underlay', type=float, default=0.22, help='Subtle source underlay, 0 to 1; use 0 for pure dots')
+    p.add_argument('--supersample', type=int, default=2, choices=[1, 2, 3])
+    args = p.parse_args()
+    if not 24 <= args.cols <= 200: p.error('--cols must be 24..200')
+    if not 2 <= args.frames <= 120: p.error('--frames must be 2..120')
+    if not 128 <= args.size <= 1200: p.error('--size must be 128..1200')
+    if not 20 <= args.duration <= 1000: p.error('--duration must be 20..1000')
+    if not 0 <= args.detail <= 1 or not 0 <= args.underlay <= 1:
+        p.error('--detail and --underlay must be between 0 and 1')
+    return args
 
 
-def prepare_source(path: Path, size: int) -> Image.Image:
-    img = Image.open(path).convert("RGB")
-    img = ImageOps.exif_transpose(img)
-    w, h = img.size
-    side = min(w, h)
-    left = (w - side) // 2
-    top = max(0, (h - side) // 2 - side // 12)
-    img = img.crop((left, top, left + side, top + side))
-    img = img.resize((size, size), Image.Resampling.LANCZOS)
-    img = ImageEnhance.Contrast(img).enhance(1.28)
-    img = ImageEnhance.Sharpness(img).enhance(1.35)
-    img = ImageOps.autocontrast(img, cutoff=2)
-    return img
+def prepare_source(path, size, detail):
+    with Image.open(path) as opened:
+        image = ImageOps.exif_transpose(opened).convert('RGB')
+    image = ImageOps.fit(image, (size, size), method=Image.Resampling.LANCZOS)
+    # Lift midtones gently without the old contrast/autocontrast highlight clipping.
+    gamma = 0.91 - 0.08 * detail
+    lut = [round(255 * (i / 255) ** gamma) for i in range(256)]
+    image = image.point(lut * 3)
+    image = ImageEnhance.Color(image).enhance(0.95)
+    return image.filter(ImageFilter.UnsharpMask(radius=1.0, percent=95, threshold=3))
 
 
-def luminance(px: tuple[int, int, int]) -> float:
-    r, g, b = px
-    return (0.2126 * r + 0.7152 * g + 0.0722 * b) / 255.0
-
-
-def sample_grid(img: Image.Image, cols: int) -> list[list[tuple[int, int, int]]]:
-    small = img.resize((cols, cols), Image.Resampling.LANCZOS)
-    small = small.filter(ImageFilter.GaussianBlur(radius=0.35))
-    pix = small.load()
-    return [[pix[x, y] for x in range(cols)] for y in range(cols)]
-
-
-def mix(a: tuple[int, int, int], b: tuple[int, int, int], t: float) -> tuple[int, int, int]:
-    return tuple(int(a[i] + (b[i] - a[i]) * t) for i in range(3))
-
-
-def make_frame(
-    grid: list[list[tuple[int, int, int]]],
-    *,
-    cols: int,
-    canvas: int,
-    bg: tuple[int, int, int],
-    default_dot: tuple[int, int, int],
-    detail: float,
-    color: bool,
-    t: float,
-    frame_i: int,
-    nframes: int,
-) -> Image.Image:
-    img = Image.new("RGB", (canvas, canvas), bg)
-    draw = ImageDraw.Draw(img)
-    cell = canvas / cols
-    max_r = cell * 0.42
-
+def prepare_grid(source, cols, bg, dot, color):
+    small = source.resize((cols, cols), Image.Resampling.LANCZOS)
+    entries = []
     for y in range(cols):
         for x in range(cols):
-            rgb = grid[y][x]
-            lum = luminance(rgb)
-            # Bright skin/highlights = larger dots on a dark canvas
-            strength = lum ** (1.05 - detail * 0.45)
-            if strength < 0.12:
-                continue
-
-            wave = 0.5 + 0.5 * math.sin(
-                (x * 0.31 + y * 0.27) + t * math.tau
-            )
-            pulse = 0.78 + 0.22 * wave
-            scan = 0.12 * math.sin((y / cols) * math.pi * 4 + t * math.tau)
-            radius = max_r * strength * pulse * (1.0 + scan * 0.15)
-            if radius < 0.6:
-                continue
-
-            cx = (x + 0.5) * cell
-            cy = (y + 0.5) * cell
-            # Subtle drift so the portrait feels alive
-            cx += math.sin(t * math.tau + y * 0.15) * cell * 0.06
-            cy += math.cos(t * math.tau * 0.8 + x * 0.12) * cell * 0.05
-
-            if color:
-                # Lift dark source colors so they read on a dark canvas
-                # Boost midtones so skin reads on dark background
-                boosted = mix(rgb, (255, 255, 255), 0.08 + 0.12 * lum)
-                fill = mix(bg, boosted, min(1.0, 0.45 + 0.55 * strength))
-            else:
-                a = 0.25 + 0.75 * strength
-                fill = mix(bg, default_dot, a)
-
-            r = radius
-            draw.ellipse((cx - r, cy - r, cx + r, cy + r), fill=fill)
-
-    # Soft vignette via overlay ring (keeps edges from looking clipped)
-    overlay = Image.new("RGBA", (canvas, canvas), (0, 0, 0, 0))
-    od = ImageDraw.Draw(overlay)
-    for i in range(18):
-        alpha = int(18 + i * 6)
-        inset = i * 3
-        od.rectangle(
-            (inset, inset, canvas - 1 - inset, canvas - 1 - inset),
-            outline=(*bg, alpha),
-        )
-    img = Image.alpha_composite(img.convert("RGBA"), overlay).convert("RGB")
-    return img
+            rgb = small.getpixel((x, y))
+            lum = (0.2126 * rgb[0] + 0.7152 * rgb[1] + 0.0722 * rgb[2]) / 255
+            if not color:
+                rgb = tuple(round(bg[k] + (dot[k] - bg[k]) * lum) for k in range(3))
+            entries.append((x, y, rgb, lum))
+    return entries
 
 
-def main() -> None:
-    args = parse_args()
-    src = prepare_source(Path(args.input), args.size)
-    grid = sample_grid(src, args.cols)
-    bg = hex_to_rgb(args.bg)
-    dot = hex_to_rgb(args.dot)
+def make_frame(source, entries, args, bg, phase):
+    scale = args.supersample
+    size = args.size * scale
+    photo = source.resize((size, size), Image.Resampling.LANCZOS)
+    if not args.color:
+        photo = ImageOps.colorize(ImageOps.grayscale(photo), bg, ImageColor.getrgb(args.dot))
+    frame = Image.blend(Image.new('RGB', (size, size), bg), photo, args.underlay)
+    draw = ImageDraw.Draw(frame)
+    cell = size / args.cols
+    for x, y, rgb, lum in entries:
+        # Constant centre and high minimum radius preserve eyes, glasses and hair.
+        radius = cell * (0.43 + 0.035 * args.detail + 0.008 * lum)
+        distance = abs((y / args.cols - phase + 0.5) % 1.0 - 0.5)
+        wave = 0.5 + 0.5 * math.cos(math.pi * distance / 0.14) if distance < 0.14 else 0.0
+        amount = 0.20 * wave * (0.25 + 0.75 * math.sqrt(lum))
+        # A restrained lavender light passes over the portrait without darkening it.
+        light = (225, 214, 255)
+        fill = tuple(round(min(255, c + max(0, light[k] - c) * amount)) for k, c in enumerate(rgb))
+        cx, cy = (x + 0.5) * cell, (y + 0.5) * cell
+        draw.ellipse((cx-radius, cy-radius, cx+radius, cy+radius), fill=fill)
+    return frame.resize((args.size, args.size), Image.Resampling.LANCZOS)
 
-    frames: list[Image.Image] = []
-    for i in range(args.frames):
-        t = i / args.frames
-        frames.append(
-            make_frame(
-                grid,
-                cols=args.cols,
-                canvas=args.size,
-                bg=bg,
-                default_dot=dot,
-                detail=args.detail,
-                color=args.color,
-                t=t,
-                frame_i=i,
-                nframes=args.frames,
-            )
-        )
 
-    out = Path(args.output)
+def save_gif(frames, out, duration):
+    # One palette for the entire loop prevents per-frame colour flicker.
+    count = min(8, len(frames))
+    sample = Image.new('RGB', (256 * count, 256))
+    for j in range(count):
+        index = j * len(frames) // count
+        sample.paste(frames[index].resize((256, 256)), (256*j, 0))
+    palette = sample.quantize(colors=256, method=Image.Quantize.MEDIANCUT)
+    quantized = [f.quantize(palette=palette, dither=Image.Dither.NONE) for f in frames]
     out.parent.mkdir(parents=True, exist_ok=True)
-    frames[0].save(
-        out,
-        save_all=True,
-        append_images=frames[1:],
-        duration=args.duration,
-        loop=0,
-        optimize=True,
-        disposal=2,
-    )
-    print(f"Wrote {out} ({args.frames} frames, {args.cols} cols)")
+    temporary = out.with_name(out.name + '.tmp')
+    quantized[0].save(temporary, format='GIF', save_all=True, append_images=quantized[1:],
+                      duration=duration, loop=0, disposal=1, optimize=False)
+    temporary.replace(out)
 
 
-if __name__ == "__main__":
+def main():
+    args = parse_args()
+    source = prepare_source(Path(args.input), args.size, args.detail)
+    bg, dot = ImageColor.getrgb(args.bg), ImageColor.getrgb(args.dot)
+    entries = prepare_grid(source, args.cols, bg, dot, args.color)
+    frames = [make_frame(source, entries, args, bg, i / args.frames) for i in range(args.frames)]
+    output = Path(args.output)
+    save_gif(frames, output, args.duration)
+    print(f'Wrote {output}: {len(frames)} frames, {args.cols} columns, {output.stat().st_size / 1024 / 1024:.2f} MiB')
+
+
+if __name__ == '__main__':
     main()
